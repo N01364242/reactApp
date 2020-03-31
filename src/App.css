@@ -1,38 +1,83 @@
+body{
+  background: white;
+background-color: white;
+background-image: none;
+}
+
 .App {
   text-align: center;
+  background: white;
+background-color: white;
+background-image: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* user dashboard */
+Image {
+  padding-top: 20px;
+} 
+
+.center{
+ width: 70%;
+ margin-left: 200px;
+ padding-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-dark .navbar-nav .nav-link {
+  color: black !important;
+}
+.navbar-dark .navbar-brand {
+  color: black !important;
+}
+.bg-light {
+  border-bottom: 0.4px solid black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a {
+  color: grey !important;
+  text-decoration: none;
+  background-color: transparent;
+  /* justify-content: space-around; */
+  padding: 0px 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.jumbotron{
+  background: url('./images/aboutUs1.jpg');
+  background-size:cover;
+  color: #fff;
+  font-size: 50px;
+  padding: 180px 25px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.container-fluid {
+  padding: 60px 50px;
+}
+.bg-grey {
+  background-color: #f6f6f6;
+}
+.logo {
+  font-size: 200px;
+  background: url('./images/aboutUS.jpg') no-repeat top left;
+  background-size:cover;
+  display: inline-block;
+height: 300px;
+width: 300px;
+}
+.logo1 {
+  font-size: 200px;
+  background: url('./images/background.jpg') no-repeat top left;
+  background-size:cover;
+  display: inline-block;
+height: 300px;
+width: 300px;
+}
+.col-sm-8 h2{
+  font-size: 70px;
+}
+.col-sm-8 p{
+  font-family: 'Roboto', sans-serif;
+  padding: 5px 5px;
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
   }
 }
